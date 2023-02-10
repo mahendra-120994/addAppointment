@@ -1,0 +1,49 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #b5b7c4;
+  border-radius: 8px;
+  list-style: none;
+  width: 30%;
+  margin: 10px;
+}
+.list_item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.title_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.title {
+  color: #1e293b;
+  font-weight: bold;
+  padding: 0;
+  margin: 0 0 0 10px;
+}
+.star {
+  color: #7858ee;
+  font-size: 16px;
+  border: none;
+  background-color: #ffffff;
+  align-items: center;
+  padding: 0;
+  margin: 10px 10px 0 0;
+}
+.star_img {
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.date {
+  color: #334155;
+  font-size: 18px;
+  mask-repeat: 0;
+  margin: 5px;
+}
